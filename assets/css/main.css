@@ -1844,12 +1844,13 @@ input, select, textarea {
 		letter-spacing: 0.25em;
 		line-height: 4.75em;
 		outline: 0;
-		padding: 0 3.75em;
+		padding: 0 2em;
 		position: relative;
 		text-align: center;
 		text-decoration: none;
 		text-transform: uppercase;
 		white-space: nowrap;
+        margin-top: 2em;
 	}
 
 		input[type="submit"]:after,
@@ -2230,7 +2231,7 @@ input, select, textarea {
 			margin-bottom: 0;
 		}
 
-		form > .fields {
+		form > .form-elements {
 			display: -moz-flex;
 			display: -webkit-flex;
 			display: -ms-flex;
@@ -2243,7 +2244,7 @@ input, select, textarea {
 			margin: -1.5em 0 2em -1.5em;
 		}
 
-			form > .fields > .field {
+			form > .form-elements > .field {
 				-moz-flex-grow: 0;
 				-webkit-flex-grow: 0;
 				-ms-flex-grow: 0;
@@ -2256,39 +2257,39 @@ input, select, textarea {
 				width: calc(100% - 1.5em);
 			}
 
-				form > .fields > .field.half {
+				form > .form-elements > .field.half {
 					width: calc(50% - 0.75em);
 				}
 
-				form > .fields > .field.third {
+				form > .form-elements > .field.third {
 					width: calc(100%/3 - 0.5em);
 				}
 
-				form > .fields > .field.quarter {
+				form > .form-elements > .field.quarter {
 					width: calc(25% - 0.375em);
 				}
 
 		@media screen and (max-width: 480px) {
 
-			form > .fields {
+			form > .form-elements {
 				width: calc(100% + 3em);
 				margin: -1.5em 0 2em -1.5em;
 			}
 
-				form > .fields > .field {
+				form > .form-elements > .field {
 					padding: 1.5em 0 0 1.5em;
 					width: calc(100% - 1.5em);
 				}
 
-					form > .fields > .field.half {
+					form > .form-elements > .field.half {
 						width: calc(100% - 1.5em);
 					}
 
-					form > .fields > .field.third {
+					form > .form-elements > .field.third {
 						width: calc(100% - 1.5em);
 					}
 
-					form > .fields > .field.quarter {
+					form > .form-elements > .field.quarter {
 						width: calc(100% - 1.5em);
 					}
 

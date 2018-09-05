@@ -1,0 +1,29 @@
+{
+    "name": "grant-ghost",
+    "version": "1.0.0",
+    "description": "GrantGhost website",
+    "main": "static-server.js",
+    "scripts": {
+        "start": "node_modules/.bin/live-server --port=8000"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/grant-ghost/grant-ghost.github.io.git"
+    },
+    "keywords": [
+        "grant writing",
+        "grants",
+        "editing",
+        "review",
+        "writing"
+    ],
+    "author": "breiche",
+    "license": "GPL-2.0",
+    "bugs": {
+        "url": ""
+    },
+    "homepage": "",
+    "devDependencies": {
+        "live-server": "^1.2.0"
+    }
+}
