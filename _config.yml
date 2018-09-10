@@ -1,2 +1,9 @@
+title: GrantGhost
+description: A grant writing  and document editing solution for the Kitchener, Waterloo, Cambridge, and Guelph area.
+url: grant-ghost.github.io/
+
+permalink: pretty
+
 plugins:
 - jekyll-seo-tag
+- jekyll-sitemap
