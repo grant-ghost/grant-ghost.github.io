@@ -24,6 +24,7 @@
     },
     "homepage": "",
     "devDependencies": {
-        "live-server": "^1.2.0"
+        "live-server": "^1.2.0",
+        "braces": ">=2.3.1"
     }
 }
